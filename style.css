@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.logo img {
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+}
+
+.menu {
+  margin: 60px 0;
+}
+
+.menu a {
+  font-size: 16px;
+  font-family: Helvetica;
+  color: rgb(88,89,91);
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.images img {
+  width: 90%;
+}
