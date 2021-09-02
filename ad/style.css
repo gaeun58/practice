@@ -1,0 +1,11 @@
+@font-face {
+  src: url("fonts/BMJUA_otf.otf")
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0E8D9;
+}
