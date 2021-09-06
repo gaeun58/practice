@@ -1,5 +1,6 @@
 body {
   color: white;
+  min-width: 768px;
 }
 
 .side-navbar {
@@ -10,25 +11,34 @@ body {
 
 }
 
-.side-navbar ul {
+#menu {
   color: white;
   list-style: none;
+  padding-left: 22px;
 }
 
-ul li:not(:last-child) {
+#menu li:not(:last-child) {
   margin-bottom: 30px;
+}
+
+#menu li a {
+  color: white;
+  text-decoration: none;
 }
 
 #logo {
   width: 136px;
+  display: block;
+  margin: 30px auto 50px auto;
 }
 
-#facebook {
-  width: 22px;
+.sns-icon {
+  text-align: center;
+  margin-top: 60px;
 }
 
-#twitter {
-  width: 25px;
+.sns-icon a:first-child {
+  margin-right: 14px;
 }
 
 /*메인*/
@@ -37,7 +47,7 @@ ul li:not(:last-child) {
   margin-left: 250px;
 }
 
-.hero_header {
+.main .hero_header {
   text-align: center;
   background-image: url("images/hero_header.jpg");
   background-size: cover;
@@ -53,8 +63,7 @@ ul li:not(:last-child) {
 }
 
 .main h1 {
-  margin: 0;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   color: white;
   font-size: 38px;
 }
