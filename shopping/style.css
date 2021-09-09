@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+header img {
+  margin-left: 30px;
+}
+
+.header-menu {
+  display: inline-block;
+  position: fixed;
+  right: 30px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.header-menu a:not(:last-child) {
+  margin-right: 30px;
+}
