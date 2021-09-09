@@ -9,30 +9,7 @@ body {
 }
 
 /*헤더*/
-header {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
-header img {
-  margin-left: 30px;
-}
-
-.header-menu {
-  display: inline-block;
-  position: fixed;
-  right: 30px;
-}
-
-.header-menu a {
-  text-decoration: none;
-  color: #545454;
-  font-weight: bold;
-}
-
-.header-menu a:not(:last-child) {
-  margin-right: 30px;
-}
 
 /*배경이미지*/
 .hero_header {
@@ -72,5 +49,20 @@ nav img {
 }
 
 .products img:not(:last-child) {
+  margin-right: 20px;
+}
+
+/*footer*/
+.sns-icon {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.sns-icon img{
+  height: 20px;
+}
+
+.sns-icon img:not(:last-child) {
   margin-right: 20px;
 }
