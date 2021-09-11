@@ -9,30 +9,53 @@ body {
 }
 
 /*헤더*/
-header {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.navbar {
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-header img {
+.navbar #logo {
+  /*이미지 앞에 x표시 후 배경색 설정
+  background-color: orange;
+   */
+  line-height: 60px;
+}
+
+.navbar #logo img {
+  vertical-align: middle;
   margin-left: 30px;
 }
 
-.header-menu {
+.navbar #menu {
+  list-style: none;
+  float: right;
+  padding: 0;
+  margin: 0;
+
+  /*수정 전
   display: inline-block;
   position: fixed;
   right: 30px;
+   */
 }
 
-.header-menu a {
+.navbar #menu li {
+  float: left;
+  margin-left: 50px;
+  line-height: 60px;
+
+  /*기존*/
   text-decoration: none;
   color: #545454;
   font-family: Helvetica,Arial,sans-serif;
   font-weight: bold;
 }
 
-.header-menu a:not(:last-child) {
-  margin-right: 10px;
+.navbar #menu li a {
+  text-decoration: none;
+  color: #545454;
+  font-size: 13px;
 }
 
 
@@ -40,6 +63,7 @@ header img {
 .hero_header {
   height: 450px;
   background-image: url("images/hero_header.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -67,6 +91,11 @@ nav img {
   text-align: center;
   margin-bottom: 80px;
   font-size: 16px;
+}
+
+.products a {
+  color: #545454;
+  text-decoration: none;
 }
 
 .products img {
